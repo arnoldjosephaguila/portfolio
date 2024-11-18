@@ -1,0 +1,32 @@
+/* Highlights Page Styles */
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Interactive Area */
+.interactive-area {
+    position: relative;
+    height: 400px; /* Set a height for the interactive area */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Moving Button */
+#movingButton {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+#movingButton:hover {
+    background-color: #005bb5;
+}

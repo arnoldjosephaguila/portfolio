@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Reference</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="styles-reference.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="reference.html">Reference</a></li>
+            <li><a href="programming.html">Programming Work</a></li>
+            <li><a href="projects.html">Project Work</a></li>
+            <li><a href="highlights.html">Highlights</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="reference-container">
+            <!-- Left Section: Slideshow -->
+            <div class="left">
+                <div class="slideshow-container">
+                    <div class="slide">
+                        <img src="./images/LetterOfReference1.png" alt="Letter of Reference 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./images/LetterOfReference2.png" alt="Letter of Reference 2">
+                    </div>
+                    <!-- <div class="slide">
+                        <img src="./images/letter3.jpg" alt="Letter of Reference 3">
+                    </div> -->
+                    <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+            </div>
+            <!-- Right Section: Accolades -->
+            <div class="right">
+                <div class="accolades">
+                    <div class="card">
+                        <img src="./images/person.webp" alt="Person 1">
+                        <div class="text">
+                            <h3>Mario Babylon (Manager)</h3>
+                            <p>"An amazing professional who goes above and beyond."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/person.webp" alt="Person 2">
+                        <div class="text">
+                            <h3>Dodge Rivera (Colleague)</h3>
+                            <p>"Outstanding work ethic and attention to detail."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/person.webp" alt="Person 3">
+                        <div class="text">
+                            <h3>Josef Buac (Senior)</h3>
+                            <p>"Truly exceptional and a pleasure to work with."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/person2.jpeg" alt="Person 3">
+                        <div class="text">
+                            <h3>Anonymous</h3>
+                            <p>"A visionary professional with a knack for transforming complex ideas into practical solutions."</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/person2.jpeg" alt="Person 3">
+                        <div class="text">
+                            <h3>Anonymous</h3>
+                            <p>"An incredible team player whose technical expertise and creativity are unmatched."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

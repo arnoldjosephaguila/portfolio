@@ -1,0 +1,67 @@
+
+
+/* Header Styles */
+header {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Navigation Bar Styles */
+nav {
+    background: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+}
+
+nav ul li a:hover {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+}
+
+/* Ensure the body and HTML take full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content expands to fill available space */
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Footer stays at the bottom */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: white;
+    color: #333;
+    border-top: 1px solid #ddd;
+}

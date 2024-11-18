@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Resume</title>
+    <link rel="stylesheet" href="shared.css">
+    <link rel="stylesheet" href="styles-resume.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="reference.html">Reference</a></li>
+            <li><a href="programming.html">Programming Work</a></li>
+            <li><a href="projects.html">Project Work</a></li>
+            <li><a href="highlights.html">Highlights</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Resume</h1>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="./images/resume1.png" alt="Resume Slide 1">
+            </div>
+            <div class="slide fade">
+                <img src="./images/resume2.png" alt="Resume Slide 2">
+            </div>
+            <!-- Next and Previous Buttons -->
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+        <div class="download-resume">
+            <p>
+                You can download the full resume <a href="./files/Resume.pdf" target="_blank">here</a>.
+            </p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
